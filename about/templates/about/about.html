@@ -7,15 +7,15 @@
             <img src="{% static 'images/nobody.jpg' %}" width="75%">
         </div>
         <div class="col-8">
-            {{about.title}}
+            {{ about.title }}
             <h2></h2>
-            <p>{{about.content | safe}}</p>
+            <p>{{ about.content | safe }}</p>
         </div>
     </div>
     <div class="row">
         <div class="col text-right">
             
-            <p class="text-end"><em>Updated on:{{about.updated_on}} </em></p>
+            <p class="text-end"><em>Updated on:{{ about.updated_on }} </em></p>
         </div>
       </div>
 </div>
